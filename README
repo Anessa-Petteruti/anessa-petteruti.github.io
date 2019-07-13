@@ -1,0 +1,26 @@
+README Personal Web Page
+
+Welcome to my personal web page! 
+
+For each of the five pages, I included an .html and .css file (therefore, my web page includes home.html, home.css, about.html, about.css, portfolio.html, portfolio.css, favorites.html, favorites.css, contact.html, and contact.css).
+I wanted the overall design of my website to be clean and simplistic in order to make the photography and images stand out more. My favorite colors are black, white, and light purple so I chose to use those colors as the color scheme for my site.
+
+*I have also included screenshots with how the top of each page of the site looks on Google Chrome on my Mac. They are located in the screenshots folder within the images folder.*
+
+HOME
+I center-oriented everything on the home page, which includes several images and a menu bar.
+For the rest of the pages, I move the menu bar to the top of the page.
+
+ABOUT
+Here, I just include a little bit about me as well as links to my social media pages that are within the right div container (my About page includes left and right containers that both use flex to orient their content column-wise). I use <a href> to link the social media images (contained within a social media bar wrapper) to external web pages.
+
+PORTFOLIO
+This is my photography portfolio in which I include a selection of photos, specifically food photos, taken by me. If you click on an image, it will take you to the corresponding recipe on my actual website, www.FoodFinessa.com. I contained each image in wrapper divs so that I could add a hover effect that contains the image caption when you hover over the image.
+I wanted to make each photo large and center oriented on this page in order for each to stand out.
+
+FAVORITES
+This page includes some of my favorite artwork, films, stories, and artists! I also use the <iframe> html tag to embed a couple of my own YouTube videos. In order to use iframe, I had to include the YouTube id to connect to YouTube to play the video.
+If you hover over each image in Favorites, the image's caption will show up.
+
+CONTACT
+For the contact page, I use inputs (using the <input> html tag) to create the fields. This way, the user can actually type within each field. The textarea html tag is for multiline input so I use it for the message field. I also include a Submit button.

@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  Flex-direction: column;
+}
+
+.header {
+  Position: fixed;
+  Width: 100%;
+  Background-color: #FFFFFF;
+  display: flex;
+  Flex-direction: column;
+  Justify-content: space-between;
+  Text-align: center;
+  Align-items: center;
+  top: 0; 
+  right: 0; 
+  left: 0;
+  z-index: 100;
+}
+
+.anessa {
+  Height: auto;
+  Width: 500px;
+  Z-index: 1;
+  Margin-top: 80px;
+}
+
+.est {
+  Height: auto;
+  Width: 200px;
+  Z-index: 1;
+}
+
+.logo-header {
+  Height: auto;
+  Width: 500px;
+  Z-index: 1;
+  Margin-top: -45px;
+}
+
+
+.menu {
+  Display: flex;
+  Width: 70%;
+  Flex: 1;
+  Justify-content: center;
+  White-space: nowrap;
+
+}
+
+.menu ul {
+  padding: 14px;
+  overflow: hidden;
+  Font-size: 13px;
+  Justify-content: flex-start;
+
+}
+
+.menu li {
+  display:inline;
+  padding: 11px 30px;
+  Color: #635f5f;
+  Font-size: 20px;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+
+.menu li a {
+  Font-size: 20px;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+  Font-style: normal;
+  Color: #635f5f;
+  Text-decoration: none;
+}
+
+.menu li:hover {
+  color: gray;
+  border-width: 0 0 3px;
+  border-style: double;
+
+}
+
+.menu li a:hover {
+  color: #d4c5e7;
+}

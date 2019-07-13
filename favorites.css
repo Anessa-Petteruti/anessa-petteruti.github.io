@@ -1,0 +1,518 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+
+.header {
+  Position: fixed;
+  Background-color: #f0f0f0;
+  Width: 100%;
+  Height: 46px;
+  display: flex;
+  Flex-direction: row;
+  Justify-content: space-between;
+  Text-align: center;
+  Align-items: center;
+  top: 0; 
+  right: 0; 
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.001);
+}
+
+
+.menu {
+  Display: flex;
+  Position: fixed;
+  Width: 70%;
+  Flex: 1;
+  Margin-left: 100px;
+
+}
+
+.menu ul {
+  padding: 14px;
+  overflow: hidden;
+  Font-size: 13px;
+  Justify-content: flex-start;
+  white-space: nowrap;
+
+}
+
+.menu li {
+  display: inline;
+  padding: 11px 30px;
+  Color: #635f5f;
+  Font-size: 20px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+
+}
+
+.menu li a {
+  Font-size: 20px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+  Font-style: normal;
+  Color: #635f5f;
+  Text-decoration: none;
+
+}
+
+.menu li:hover {
+  color: gray;
+  border-width: 0 0 3px;
+  border-style: double;
+
+
+}
+
+.menu li a:hover {
+  color: #d4c5e7;
+
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  Height: auto;
+  margin: 150px auto;
+  Display: flex;
+  Flex-direction: row;
+  Justify-content: center;
+  Align-items: center;
+  Text-align: center;
+  Flex-wrap: wrap;
+}
+
+
+
+.favorites-title {
+  Width: 850px;
+  Height: auto;
+  Margin-bottom: 50px;
+  Margin-top: -120px;
+}
+
+.branch {
+  Width: 360px;
+  Height: auto;
+  Margin-top: -290px;
+  Transform: rotate(220deg);
+  Margin-right: 360px;
+}
+
+.art-container {
+  Display: flex;
+  Flex-direction: column;
+  Align-items: center;
+  Text-align: center;
+  Justify-content: center;
+  Margin-top: -100px;
+  Margin-bottom: -50px;
+
+}
+
+.art-title {
+  Width: 300px;
+  Height: auto;
+}
+
+.art-1 {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.art-1-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.art-1-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/art-1-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.art-1-container:hover:after {
+  opacity: 1;
+}
+
+.art-2 {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+}
+
+.art-2-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.art-2-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/art-2-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.art-2-container:hover:after {
+  opacity: 1;
+}
+
+
+.piano-title {
+  Margin-top: 70px;
+  Width: 300px;
+  Height: auto;
+}
+
+.places-title {
+  Margin-top: 70px;
+  Width: 300px;
+  Height: auto;
+}
+
+.salem {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.salem-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.salem-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/salem-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.salem-container:hover:after {
+  opacity: 1;
+}
+
+.italy {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+}
+
+.italy-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.italy-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/italy-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.italy-container:hover:after {
+  opacity: 1;
+}
+
+.artists-title {
+  Margin-top: 70px;
+  Width: 300px;
+  Height: auto;
+}
+
+.chopin {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.chopin-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.chopin-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/chopin-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.chopin-container:hover:after {
+  opacity: 1;
+}
+
+.mendelssohn {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.mendelssohn-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.mendelssohn-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/mendelssohn-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.mendelssohn-container:hover:after {
+  opacity: 1;
+}
+
+.pilots {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.pilots-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.pilots-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/21pilots-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.pilots-container:hover:after {
+  opacity: 1;
+}
+
+.stories-title {
+  Margin-top: 70px;
+  Width: 300px;
+  Height: auto;
+}
+
+.rip-van-winkle {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.rip-van-winkle-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.rip-van-winkle-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/rip-van-winkle-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.rip-van-winkle-container:hover:after {
+  opacity: 1;
+}
+
+.rumpelstiltskin {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.rumpelstiltskin-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.rumpelstiltskin-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/rumpelstiltskin-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.rumpelstiltskin-container:hover:after {
+  opacity: 1;
+}
+
+.hereditary {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.hereditary-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.hereditary-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/hereditary-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.hereditary-container:hover:after {
+  opacity: 1;
+}
+
+.godfather {
+  Width: 800px;
+  Height: auto;
+  Outline: double;
+  outline-offset: 7px;
+  Outline-color: #d9d9d9;
+  Margin: auto;
+  margin-bottom: 30px;
+}
+
+.godfather-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.godfather-container:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/godfather-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.godfather-container:hover:after {
+  opacity: 1;
+}
+
+.film-title {
+  Margin-top: 70px;
+  Width: 300px;
+  Height: auto;
+}
+
+
+.footer {
+  Width: 500px;
+  Height: auto;
+  bottom: 0;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+  Margin-bottom: -170px;
+}
+

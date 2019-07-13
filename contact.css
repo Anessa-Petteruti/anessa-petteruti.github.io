@@ -1,0 +1,166 @@
+
+body {
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+
+
+.header {
+  Position: fixed;
+  Background-color: #f0f0f0;
+  Width: 100%;
+  Height: 46px;
+  display: flex;
+  Flex-direction: row;
+  Justify-content: space-between;
+  Text-align: center;
+  Align-items: center;
+  top: 0; 
+  right: 0; 
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.001);
+}
+
+
+.menu {
+  Display: flex;
+  Position: fixed;
+  Width: 70%;
+  Flex: 1;
+  Margin-left: 100px;
+
+}
+
+.menu ul {
+  padding: 14px;
+  overflow: hidden;
+  Font-size: 13px;
+  Justify-content: flex-start;
+  white-space: nowrap;
+
+
+
+}
+
+.menu li {
+  display: inline;
+  padding: 11px 30px;
+  Color: #635f5f;
+  Font-size: 20px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+
+}
+
+.menu li a {
+  Font-size: 20px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif; 
+  Font-style: normal;
+  Color: #635f5f;
+  Text-decoration: none;
+
+}
+
+.menu li:hover {
+  color: gray;
+  border-width: 0 0 3px;
+  border-style: double;
+
+
+}
+
+.menu li a:hover {
+  color: #d4c5e7;
+
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 150px auto;
+  Display: flex;
+  Flex-direction: column;
+  Justify-content: center;
+  Align-items: center;
+  Text-align: center;
+  Flex-wrap: wrap;
+}
+
+.contact-title {
+  Width: 750px;
+  Height: auto;
+  Margin-top: -130px;
+  Margin-bottom: -70px;
+}
+
+.blossom {
+  Width: 160px;
+  Height: auto;
+  Margin-top: -185px;
+  Margin-left: 510px;
+  Transform: rotate(340deg);
+}
+
+.first-name {
+  Width: 300px;
+  Height: auto;
+  Margin-bottom: -20px;
+}
+
+.last-name {
+  Width: 300px;
+  Height: auto;
+  Margin-bottom: -20px;
+}
+
+.subject {
+  Width: 300px;
+  Height: auto;
+  Margin-bottom: -20px;
+}
+
+input[type=text], textarea {
+  Font-size: 15px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+
+input[type=Submit] {
+  Font-size: 20px;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;
+  background-color: #f0f0f0;
+  color: #000000;
+  padding: 15px 100px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  Margin-top: 30px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer {
+  Width: 500px;
+  Height: auto;
+  bottom: 0;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif; 
+  Margin-bottom: -170px;
+  Margin-top: 100px;
+}
+
+

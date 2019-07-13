@@ -1,0 +1,539 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+
+.header {
+  Position: fixed;
+  Background-color: #f0f0f0;
+  Width: 100%;
+  Height: 46px;
+  display: flex;
+  Flex-direction: row;
+  Justify-content: space-between;
+  Text-align: center;
+  Align-items: center;
+  top: 0; 
+  right: 0; 
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 8px 0 rgba(0, 0, 0, 0.001);
+}
+
+
+.menu {
+  Display: flex;
+  Position: fixed;
+  Width: 70%;
+  Flex: 1;
+  Margin-left: 100px;
+
+}
+
+.menu ul {
+  padding: 14px;
+  overflow: hidden;
+  Font-size: 13px;
+  Justify-content: flex-start;
+  white-space: nowrap;
+
+}
+
+.menu li {
+  display: inline;
+  padding: 11px 30px;
+  Color: #635f5f;
+  Font-size: 20px;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+
+}
+
+.menu li a {
+  Font-size: 20px;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+  Font-style: normal;
+  Color: #635f5f;
+  Text-decoration: none;
+
+}
+
+.menu li:hover {
+  color: gray;
+  border-width: 0 0 3px;
+  border-style: double;
+
+
+}
+
+.menu li a:hover {
+  color: #d4c5e7;
+
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  Height: auto;
+  margin: 150px auto;
+  Display: flex;
+  Flex-direction: row;
+  Justify-content: center;
+  Align-items: center;
+  Text-align: center;
+  Flex-wrap: wrap;
+}
+
+
+
+.portfolio-title {
+  Width: 800px;
+  Height: auto;
+  Margin-left: 100px;
+  Margin-bottom: 50px;
+}
+
+.click {
+  Width: 500px;
+  Height: auto;
+  Margin-left: -50px;
+  Margin-bottom: 10px;
+  Margin-top: -100px;
+}
+
+
+.cake-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.cake-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/cake-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.cake-container a:hover:after {
+  opacity: 1;
+}
+
+
+.rigatoni-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.rigatoni-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/rigatoni-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.rigatoni-container a:hover:after {
+  opacity: 1;
+}
+
+.prosecco-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.prosecco-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/prosecco-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.prosecco-container a:hover:after {
+  opacity: 1;
+}
+
+
+.pumpkin-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.pumpkin-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/pumpkin-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.pumpkin-container a:hover:after {
+  opacity: 1;
+}
+
+.soup-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.soup-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/soup-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.soup-container a:hover:after {
+  opacity: 1;
+}
+
+
+.sandwich-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.sandwich-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/sandwich-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.sandwich-container a:hover:after {
+  opacity: 1;
+}
+
+.bread-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.bread-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/bread-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.bread-container a:hover:after {
+  opacity: 1;
+}
+
+.birthday-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.birthday-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/birthday-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.birthday-container a:hover:after {
+  opacity: 1;
+}
+
+.christmas-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.christmas-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/christmas-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.christmas-container a:hover:after {
+  opacity: 1;
+}
+
+.pasta-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.pasta-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/pasta-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.pasta-container a:hover:after {
+  opacity: 1;
+}
+
+.oatmeal-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.oatmeal-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/oatmeal-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.oatmeal-container a:hover:after {
+  opacity: 1;
+}
+
+.icecream-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.icecream-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/icecream-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.icecream-container a:hover:after {
+  opacity: 1;
+}
+
+.drink-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.drink-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/drink-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.drink-container a:hover:after {
+  opacity: 1;
+}
+
+.churros-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.churros-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/churros-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.churros-container a:hover:after {
+  opacity: 1;
+}
+
+
+.pizzabagels-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.pizzabagels-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/pizzabagels-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.pizzabagels-container a:hover:after {
+  opacity: 1;
+}
+
+.croissant-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.croissant-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/croissants-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.croissant-container a:hover:after {
+  opacity: 1;
+}
+
+.batter-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.batter-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/batter-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.batter-container a:hover:after {
+  opacity: 1;
+}
+
+
+.chocolate-container {
+  display: inline-block;
+  position: relative;
+  Padding-bottom: 10px;
+
+}
+
+.chocolate-container a:after {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(235,235,235,0.5);
+  content: url("./images/chocolate-caption.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.chocolate-container a:hover:after {
+  opacity: 1;
+}
+
+.leaf-1 {
+  Width: 300px;
+  Height: auto;
+  Transform: rotate(300deg);
+  Margin-left: -450px;
+  Margin-top: -200px;
+}
+
+.footer {
+  Width: 500px;
+  Height: auto;
+  bottom: 0;
+  font-family: "Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua","Georgia",serif;  
+  Margin-bottom: -170px;
+}
+
